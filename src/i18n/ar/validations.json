@@ -1,0 +1,7 @@
+{
+  "email_invalid": "من فضلك أدخل بريد إلكتروني صالح",
+  "password_too_short": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل",
+  "required_field": "هذا الحقل مطلوب",
+  "role_invalid": "يجب أن تكون الصلاحية user أو admin",
+  "invalid_price": "يجب أن يكون السعر رقمًا"
+}

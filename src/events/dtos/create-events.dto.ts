@@ -11,14 +11,14 @@ export class CreateEventsDto {
   @IsOptional()
   category?: string;
 
-  @IsNotEmpty()
+  @IsNotEmpty({ message: 'validations.required_field' })
   date?: Date;
 
   @IsOptional()
   venue?: string;
 
   @IsOptional()
-  @IsNumber()
+  @IsNumber({}, { message: 'validations.invalid_price' })
   price?: number;
 
   @IsOptional()

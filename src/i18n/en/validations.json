@@ -1,0 +1,7 @@
+{
+  "email_invalid": "Please enter a valid email address",
+  "password_too_short": "Password must be at least 6 characters",
+  "required_field": "This field is required",
+  "role_invalid": "Role must be either 'user' or 'admin'",
+  "invalid_price": "Price must be a number"
+}

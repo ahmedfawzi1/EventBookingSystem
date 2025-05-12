@@ -1,0 +1,5 @@
+{
+    "already_booked": "You have already booked this event",
+    "success": "Event booked successfully",
+    "not_found": "User or Event not found"
+}
