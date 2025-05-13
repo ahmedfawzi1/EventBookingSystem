@@ -9,6 +9,7 @@ import { EventsModule } from './events/events.module';
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { UsersModule } from './users/users.module';
+(global as any).crypto = require('crypto');
 
 @Module({
   imports: [
